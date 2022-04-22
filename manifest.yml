@@ -1,0 +1,9 @@
+---
+applications:
+- name: patrol
+  memory: 128M
+  disk_quota: 512M
+  path: D:\R3SUPPORT\Megafon_patrol_service 
+  services:    
+  - Smart_Monitoring_XSUAA
+  - HANADB_XSA

@@ -1,0 +1,32 @@
+{
+  "name": "patrol",
+  "version": "1.0.0",
+  "description": "patrol rest server",
+  "main": "pythia.js",
+  "dependencies": {
+    "agenda": "^1.0.3",
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.3",
+    "console-stamp": "^0.2.9",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "hdb": "^0.17.1",
+    "npm": "^6.3.0",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0",
+    "simple-oauth2": "^1.6.0",
+    "strong-soap": "^1.21.0"
+  },
+  "engines": {
+    "node": ">8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node patrol.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true
+}
